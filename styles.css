@@ -1,2 +1,80 @@
 
 /* Your CSS Code here. */
+
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply some styling to the header */
+header {
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Style the intro section */
+#intro {
+  text-align: center;
+  padding: 20px;
+}
+
+#intro img {
+  border-radius: 50%;
+  max-width: 150px;
+  height: auto;
+}
+
+#intro p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Style the skills and projects sections */
+section {
+  margin: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+li {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Apply some styling to the footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+}

@@ -1,16 +1,44 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Accessible Portfolio</title>
+<link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <header>
+    <h1 role="heading" aria-level="1">Sandeep Maurya</h1>
+    <nav role="navigation">
+      <ul role="list">
+        <li role="listitem"><a href="#skills">Skills</a></li>
+        <li role="listitem"><a href="#projects">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="intro">
+    <img src="https://images.unsplash.com/photo-1608889175250-c3b0c1667d3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YXZlbmdlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Your Image" role="img">
+    <p>Web Developer | Softwaer Engnineer</p>
+  </section>
+  
+  <section id="skills">
+    <h2 role="heading" aria-level="2">Skills</h2>
+    <p>HTML, CSS, JavaScript, etc.</p>
+  </section>
+  
+  <section id="projects">
+    <h2 role="heading" aria-level="2">Projects</h2>
+    <ul role="list">
+      <li role="listitem">Message Encryption and Decryption</li>
+      <li role="listitem">Agriculture Supply Chain Management using Blockchain</li>
+      <li role="listitem">Sudoku Puzzle Java Swing</li>
+    </ul>
+  </section>
 
+	<section id="footer"> 
+		Author: @sandeep_mz
+		<a href="mailto:initialsandeep09@gmail.com">initialsandeep09@gmail.com</a></p>
+	</section>
 </body>
-
 </html>
